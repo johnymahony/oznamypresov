@@ -1,0 +1,1 @@
+Oznamy {{city()->humanName()}}

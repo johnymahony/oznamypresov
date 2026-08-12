@@ -1,0 +1,1 @@
+@if($board->attachment_path)<a href="{{url('/download/'.$board->id.'')}}"><i class="fas fa-download"></i> Sťiahnúť súbor <i class="fas fa-download"></i></a>&nbsp;&nbsp;@endif <a href="{{$board->url()}}" target="_blank"><i class="fas fa-external-link-alt"></i> Otvoriť v novom okne <i class="fas fa-external-link-alt"></i></a>

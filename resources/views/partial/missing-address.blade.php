@@ -1,0 +1,1 @@
+<h1>Ďakujeme</h1><p>Chýbajúca adresa bola zaznamenaná. Po doplnení Vás budeme kontaktovať emailom, aby ste si mohli dokončiť svoje nastavenia.</p>

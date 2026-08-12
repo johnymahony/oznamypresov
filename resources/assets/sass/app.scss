@@ -1,0 +1,407 @@
+* {
+  font-family: 'Montserrat', sans-serif;
+}
+
+@import "node_modules/selectize/dist/css/selectize.bootstrap3";
+
+@tailwind base;
+
+@tailwind components;
+
+.btn {
+  @apply font-bold py-2 px-4 rounded-full border m-3 ml-0
+  }
+
+a.btn {
+  display: inline-block;
+}
+
+.btn:hover {
+  @apply shadow-outline;
+}
+
+.btn-info {
+  @apply bg-gray-500 text-white
+  }
+
+.btn-success {
+  @apply bg-green-500 text-white
+  }
+
+.btn-default {
+  @apply text-gray-800 border-gray-400
+  }
+
+.btn-red, .btn-green {
+  @apply text-white
+  }
+
+.nav-link {
+  @apply py-3 px-0 block border-b-2 border-transparent;
+}
+
+.hover-link:hover {
+  @apply underline cursor-pointer;
+}
+
+.nav-link:lg {
+  @apply p-4;
+}
+
+.nav-link:hover {
+  @apply border-indigo-400;
+}
+
+.panel {
+  @apply mb-2 border-solid border-gray-200 rounded border mb-4;
+
+  -webkit-box-shadow: 0px 0px 7px 1px rgba(0, 0, 0, 0.3);
+
+  .title {
+    @apply px-2 py-3 border-solid border-gray-300 border-b bg-gray-300;
+  }
+
+  .body {
+    @apply p-3 bg-white;
+  }
+}
+
+.link {
+  @apply text-blue-700 underline;
+}
+.edit-form-input {
+  @apply py-3 border-b border-gray-200;
+}
+.edit-form-input label {
+  @apply pb-2 inline-block text-gray-600;
+}
+
+@tailwind utilities;
+#menu-toggle:checked + #menu {
+  display: block;
+}
+
+
+
+.navbar-laravel {
+  background-color: #fff;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.04);
+}
+
+.page {
+  max-width: 1000px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.policy-page {
+  p {
+    padding: 10px 0;
+  }
+}
+
+.h1, .policy-page h1 {
+  font-size: 200%;
+  font-weight: bold;
+}
+
+.h2, .policy-page h2 {
+  font-size: 150%;
+  font-weight: bold;
+}
+
+.h4, .policy-page h4 {
+  font-size: 120%;
+  font-weight: bold;
+}
+
+#citizen-map {
+  height: 400px;
+}
+
+.parcel-found {
+  border: 1px solid lightgreen;
+}
+
+.not-found {
+  border: 1px solid lightsalmon;
+}
+
+.error-found {
+  border: 1px solid red;
+}
+
+.parcel-search {
+  border: 1px solid cyan;
+}
+
+#selection-popup {
+  border: 1px solid lightgray;
+  background: white;
+  position: fixed; // fixed positioning = easy mode
+  width: 186px;
+  padding: 5px;
+
+  input {
+    width: 100%;
+  }
+}
+
+.toast {
+  position: fixed;
+  width: 250px;
+  left: calc(50% - 125px);
+  top: 120px;
+  z-index: 1000;
+}
+
+.alert {
+  @apply text-white border-2 p-4 rounded;
+}
+
+.alert-success {
+  @apply bg-green-300  border-green-400;
+}
+
+.alert-danger {
+  @apply bg-red-300  border-red-400;
+}
+
+.alert-warning {
+  @apply bg-orange-300  border-orange-400;
+}
+
+.alert-secondary {
+  @apply text-black;
+}
+
+#mapid {
+  height: 500px;
+}
+
+@media only screen and (max-width: 600px) {
+  #mapid {
+    height: 300px !important;
+  }
+}
+
+.edit-button {
+  text-align: center;
+
+  a {
+    color: white !important;
+  }
+
+  &-new {
+    background: lightcoral;
+  }
+
+  &-ready {
+    background: lightsalmon;
+  }
+
+  &-done {
+    background: lightgreen;
+  }
+}
+
+.footer {
+  position: fixed;
+  width: 100%;
+  text-align: center;
+  bottom: 0px;
+  border-top: 1px solid lightgray;
+  padding: 10px 0px;
+  background: white;
+  z-index: 10000;
+}
+
+.state-icon {
+  left: -5px;
+}
+
+.list-group-item-primary {
+  color: rgb(255, 255, 255);
+  background-color: rgb(66, 139, 202);
+}
+
+/* DEMO ONLY - REMOVES UNWANTED MARGIN */
+.well .list-group {
+  margin-bottom: 0px;
+}
+
+.tCenter {
+  text-align: center;
+}
+
+.save-button {
+  padding: 10px 20px;
+  font-size: 130%;
+}
+
+.pagination {
+  flex-wrap: wrap;
+}
+
+.pagination {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  padding-left: 0;
+  list-style: none;
+  border-radius: .25rem;
+
+  .page-link {
+    display: block;
+    position: relative;
+    padding: .5rem .75rem;
+    margin-left: -1px;
+    line-height: 1.25;
+    border: 1px solid #dee2e6;
+  }
+
+  .page-item.disabled .page-link {
+    color: #6c757d;
+    pointer-events: none;
+    cursor: auto;
+    background-color: #fff;
+    border-color: #dee2e6;
+  }
+
+  .page-item.active .page-link {
+    z-index: 1;
+    color: #fff;
+    @apply bg-gray-400;
+  }
+}
+
+.list-status {
+  display: inline-block;
+  min-width: 112px;
+}
+
+.pdf-iframe {
+  width: 100%;
+  height: 600px;
+}
+
+.right {
+  float: right;
+}
+
+.left {
+  float: left;
+}
+
+#subscribe_popup {
+  display: none;
+  position: fixed;
+  width: 300px;
+  z-index: 10000;
+  height: 400px;
+  bottom: 0px;
+  right: 10px;
+}
+
+.close-icon {
+  cursor: pointer;
+}
+
+.form-bg {
+  background: linear-gradient(90deg, $basicLight 0%, $basicDark 100%);
+}
+
+.logo {
+  height: 40px;
+}
+
+.w-1500 {
+  max-width: 1500px;
+}
+
+.w-500 {
+  max-width: 500px;
+}
+
+.pt-57 {
+  padding-top: 57px;
+}
+
+#navbar {
+  -webkit-box-shadow: 0 0 7px 1px rgba(0, 0, 0, 0.3) !important;
+  transition: top 0.3s;
+  z-index: 99999;
+}
+
+.container {
+  display: block;
+  position: relative;
+  padding-left: 35px;
+  margin-bottom: 12px;
+  cursor: pointer;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+
+/* Hide the browser's default checkbox */
+.container input {
+  position: absolute;
+  opacity: 0;
+  cursor: pointer;
+  height: 0;
+  width: 0;
+}
+
+/* Create a custom checkbox */
+.checkmark {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 25px;
+  width: 25px;
+  background-color: #eee;
+}
+
+/* On mouse-over, add a grey background color */
+.container:hover input ~ .checkmark {
+  background-color: #ccc;
+}
+
+/* When the checkbox is checked, add a blue background */
+.container input:checked ~ .checkmark {
+  background-color: $basic;
+}
+
+/* Create the checkmark/indicator (hidden when not checked) */
+.checkmark:after {
+  content: "";
+  position: absolute;
+  display: none;
+}
+
+/* Show the checkmark when checked */
+.container input:checked ~ .checkmark:after {
+  display: block;
+}
+
+/* Style the checkmark/indicator */
+.container .checkmark:after {
+  left: 10px;
+  top: 7px;
+  width: 5px;
+  height: 10px;
+  border: solid white;
+  border-width: 0 3px 3px 0;
+  -webkit-transform: rotate(45deg);
+  -ms-transform: rotate(45deg);
+  transform: rotate(45deg);
+}
+
+.btn-red {
+  background: $buttonBg;
+}
+.btn-green {
+  background: lightgreen;
+}

@@ -1,0 +1,18 @@
+Východisková situácia: Obèania sú èasto krát slabo informovaní o dianí na radnici. Vznikajú z toho potom nedorozumenia - najmä pri výstavbe, rozpoètoch, v¹eobecných záväzných nariadeniach, atï. Èasto to konèí pri hádkach medzi úradníkmi a obèanmi, spisujú sa petície, èi podávajú s»a¾nosti.
+
+Opis potrieb cieµovej skupiny: Cieµová skupina sú v tomto prípade obèania mesta, druhá skupina sú úradníci. Je potrebné aby boli obèania vèas a zrozumiteµne iformovaný o dôle¾itých faktoch a rozhodnutiach úradníkov. Zároveò je potrebné, aby úradníci neboli za»a¾ovaný informovaním, a mali èas na svoju agendu.
+
+Tento problém nieje v mnohých mestách vôbec vyrie¹ený, teda obèania sa informáciám dostávajú iba veµmi »a¾ko. Musia pracne posiela» info¾iadosti, alebo sledova» tlaè, prípadne facebookove skupiny, a pod. Èasto sa v¹ak stane, ¾e dôle¾itá informácia sa k obèanom nedostane vèas (napr stavebné konania majú urèité lehoty na pripomienky od obèanov, a pod).
+
+Navy¹e, aj tie informácie, ktoré úradníci zverejòujú maju èasto krát veµmi zlo¾itý informaèný charakter, a be¾ným obèanom sú veµmi nejasné. A pri veµkých mestách vzniká problém s tým, ¾e informácií (výstupov z radnice) mô¾e by» obèas príli¹ veµa. Adresova» v¹etky informácie v¹etkým obèanom mô¾e by» neefektívne, nakoµko sa v tom obèania mô¾u "strati»".
+
+Opis a zdôvodnenie zvolenej stratégie projektu: Mnohé z týchto problémov, doká¾e efektívne rie¹i» portál oznamypresov.sk. Jeho hlavným cieµom je automaticky distribuova» informácie z úradov k obèanom. Stratégie je, ¾e portál automaticky zbiera informácie z existujúcich informaèných kanálov, informácie agreguje, triedi, a potom potom rozosiela obèanom podµa ich vlastných preferencií. Obèan si mô¾e jednoducho nastavi» geografickú oblas», ktorá ho zaujíma, vie nastavi» po¾adované kategórie, alebo iba jednoducho vyhµada» to, èo ho práve potrebuje. Portál zároveò slú¾i aj ako spoµahlivý archív. Slú¾i taktie¾ úradníkom, ktorý vïaka nemu získajú jednoduchý agregovaný prístup k dátam z viacerých oddelení úradov.
+
+Ïal¹ím veµkým prínosom je aplikovanie umelej inteligencie, v podobe automatického geolokalizovania úradných oznamov. Oznamy, ktoré sa týkajú konkrétnej lokality vie portál bez zásahu èloveka zaznaèi» na príslu¹né miesto v mape. Tým mesto získa priestorový prehµad o svojej vlastnej agende. Vïaka tomu je oveµa jasnej¹ie kde sa najviac rúbu stromy, kde je viac výstavby, kde sa prenajíma mestský majetok, atï.
+
+Portál funguje v Pre¹ove u¾ viac ako dva roky. Za ten èas mal mo¾nos» nazbiera» viacero hodnotných dát o tom, ktoré informácie obèanov zaujímajú viac ako ostatné. Tieto informácie sa budú da» vyu¾i» na zlep¹enie a zefektívnenie komunikácie mesta, èi vytriedenie nezaujímavých dát, ktoré nikoho nezaujímajú, ale úradníci ich zbytoène produkujú.
+
+Portál je postavený modulárnym spôsobom. To zabezpeèuje mo¾nos» pridávania rôznych roz¹írení. V poslednej ho nasadil do ïal¹ích slovenských miest. Banská Bystrica, ®ilina, Hlohovec, Poprad a Trenèín. Potenciál je v¹ak väè¹í. Chcel by som ho nasadi» do ka¾dého mesta, nakoµko v¹etky slovenské mestá spája podobná problematika.
+
+Dlhodobý cieµ je zbiera» dáta o komunikácii medzi obèanmi a radnicou, a na ich základe zlep¹i» legislatívne nastavenia zverejòovania informácii.                                                                                                                                                                                     
+ 

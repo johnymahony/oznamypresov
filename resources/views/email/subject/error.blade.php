@@ -1,0 +1,1 @@
+{{city()}} Error [{{config('app.env')}}]

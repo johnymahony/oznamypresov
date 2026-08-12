@@ -1,0 +1,1 @@
+<b>Dátum</b>: {{trim(skDate($board->published_at))}}<br><b>Kategória</b>: {{trim(notEmptyString($board->category->name))}}<br><b>Názov: </b> <a href="{{$board->url()}}" target="_blank">{{trim($board->title)}}</a><br><b>Popis: </b> {{str_replace(["\n", "\r", "\n\r"], ' ', trim($board->description))}}<br>@include('link')

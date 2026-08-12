@@ -1,0 +1,1 @@
+Pomoc ({{city()}}): {{auth()->user()->email}} / {{$board->description}}

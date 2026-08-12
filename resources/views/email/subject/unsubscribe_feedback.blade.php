@@ -1,0 +1,1 @@
+Odhlásenie {{$reason}}, {{$comment}}

@@ -1,0 +1,8 @@
+<div class="panel">
+    <div class="title">
+        {!! $title !!}
+    </div>
+    <div class="body">
+        {!! $content !!}
+    </div>
+</div>

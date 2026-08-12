@@ -1,0 +1,1 @@
+Nová kategória: {{$category->name}}
