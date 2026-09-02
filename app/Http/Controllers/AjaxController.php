@@ -13,7 +13,7 @@ class AjaxController extends Controller
         $service = new $classname();
         $result = $error = null;
         try {
-            $result = $service->handle(json_decode($request->getContent(), true));
+            $result = $service->handle($request->all());
         } catch (JavascriptHandledException $e) {
             $error = [
                 'code' => $e->getCode(),
