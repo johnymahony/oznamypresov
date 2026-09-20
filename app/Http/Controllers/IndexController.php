@@ -204,7 +204,8 @@ class IndexController extends Controller
             dd('Oznam bol zmazany');
         }
         header("Content-Description: File Transfer");
-        header("Content-Disposition: $type; filename=" . skDate($board->published_at) . ' - ' . trim($board->title) . '.pdf');
+        $filename = skDate($board->published_at) . ' - ' . trim(str_replace(["\r", "\n"], '', $board->title)) . '.pdf';
+        header("Content-Disposition: $type; filename=\"" . $filename . "\"");
         header("Content-Type: application/pdf");
         Log::debug("Download attachment board: {$board->id}, $type, cityzen: " . request()->get('c', ''));
         $attachment = $board->attachments->first();
