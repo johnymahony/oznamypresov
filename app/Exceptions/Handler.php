@@ -7,6 +7,7 @@ use Illuminate\Auth\AuthenticationException;
 use Illuminate\Foundation\Exceptions\Handler as ExceptionHandler;
 use Illuminate\Session\TokenMismatchException;
 use Illuminate\Validation\ValidationException;
+use ReflectionException;
 use Symfony\Component\HttpKernel\Exception\NotFoundHttpException;
 use Throwable;
 
@@ -17,6 +18,7 @@ class Handler extends ExceptionHandler
         ValidationException::class,
         TokenMismatchException::class,
         NotFoundHttpException::class,
+        ReflectionException::class
     ];
 
     protected $dontFlash = [
