@@ -47,6 +47,7 @@ class ParcelFinder extends Command
             ->join('boards', 'boards.id', '=', 'parcels.board_id')
             ->whereNull('parcels.points')->get();
         $counts = [];
+        $board = null;
         foreach ($parcels as $parcel) {
             Log::debug("FindingParcel {$parcel->id}");
             /** @var Parcel $parcel */
@@ -84,7 +85,7 @@ class ParcelFinder extends Command
             }
             sleep(1);
         }
-        if ($board->status !== Board::STATUS_DONE) {
+        if ($board && $board->status !== Board::STATUS_DONE) {
             $board->setWholeCity();
         }
         Log::debug('ParcelFinder end');
